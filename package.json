@@ -1,0 +1,11 @@
+{
+  "name": "bathroom-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/html-site"
+  ],
+  "devDependencies": {
+    "@hpe/project-scripts": "^1.0.6"
+  }
+}

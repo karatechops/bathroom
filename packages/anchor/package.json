@@ -1,0 +1,8 @@
+{
+  "name": "@bathroom/anchor",
+  "version": "1.0.0",
+  "description": "Bathroom UI - Header Component",
+  "main": "index.js",
+  "author": "Alex Mejias",
+  "license": "MIT"
+}

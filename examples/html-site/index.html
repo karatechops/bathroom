@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Components</title>
+    <style>
+      /* Version controlling themeing may be difficult.
+      Could this pull from CDNs? */
+      @font-face {
+        font-family: 'Metric';
+        src: url('https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.woff')
+          format('woff');
+      }
+      @font-face {
+        font-family: 'Metric';
+        src: url('https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Bold.woff')
+          format('woff');
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: 'Metric';
+        src: url('https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Semibold.woff')
+          format('woff');
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: 'Metric';
+        src: url('https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Light.woff')
+          format('woff');
+        font-weight: 100;
+      }
+
+      html {
+        --light-accent-1: teal;
+        --dark-accent-1: papayawhip;
+        --font-stack: 'Metric', Arial, sans-serif;
+        --fontFamily: 'Metric';
+        --fontUrl: url('https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.woff')
+          format('woff');
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+  </head>
+  <body>
+    <bathroom-theme></bathroom-theme>
+    <bathroom-anchor href="/my-page">Learn more</bathroom-anchor>
+    <bathroom-anchor href="/my-page"><div>div link</div></bathroom-anchor>
+    <script src="/index.js"></script>
+  </body>
+</html>
