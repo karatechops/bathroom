@@ -1,0 +1,7 @@
+{
+  "name": "@bathroom/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Mejias",
+  "license": "MIT"
+}

@@ -5,6 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@bathroom/anchor": "*"
+    "@bathroom/anchor": "*",
+    "@bathroom/core": "*",
+    "node-modules": "^1.0.1"
   }
 }
