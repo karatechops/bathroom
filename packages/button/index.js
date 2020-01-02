@@ -18,7 +18,6 @@ class BathroomButton extends HTMLElement {
   }
 
   render() {
-    console.log(this.textContent.toString());
     const content = this.textContent.trim();
     this.shadow.innerHTML = `<a href="${this.getAttribute('href')}">${content ||
       this.innerHTML}</a>

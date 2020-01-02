@@ -3,6 +3,12 @@
  */
 @import url('../../packages/core/base.css');
 
+/* Reset browser default CSS */
+body {
+  padding: 0;
+  margin: 0;
+}
+
 /* custom theme color example */
 html {
   --light-accent-1: darkgoldenrod;

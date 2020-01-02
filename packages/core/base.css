@@ -24,7 +24,10 @@
 
 html {
   --light-accent-1: teal;
+  --light-accent-2: darkseagreen;
+  --light-accent-3: palevioletred;
   --dark-accent-1: papayawhip;
+  --dark-accent-2: lightgoldenrodyellow;
   --font-stack: 'Metric', Arial, sans-serif;
   --fontFamily: 'Metric';
   --fontUrl: url('https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.woff')

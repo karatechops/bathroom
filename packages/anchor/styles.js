@@ -4,7 +4,7 @@ export default `
     font-family: var(--font-stack);
   }
   :host > a {
-    padding: 16px;
+    display: inline-block;
     color: var(--light-accent-1);
     font-size: 16px;
   }
