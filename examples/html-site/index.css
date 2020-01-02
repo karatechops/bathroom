@@ -1,1 +1,9 @@
+/* This could import from a CDN? 
+ * Ideally, we could import from node_modules here... 
+ */
 @import url('../../packages/core/base.css');
+
+/* custom theme color example */
+html {
+  --light-accent-1: darkgoldenrod;
+}

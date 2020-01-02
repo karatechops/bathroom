@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Web Components</title>
+    <title>Bathroom Web Components</title>
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <bathroom-theme></bathroom-theme>
     <bathroom-anchor href="/my-page">Learn more</bathroom-anchor>
-    <bathroom-anchor href="/my-page"><div>div link</div></bathroom-anchor>
+    <bathroom-anchor href="/my-page">
+      <div>non-string child</div>
+    </bathroom-anchor>
+    <bathroom-button href="#">Sign up</bathroom-button>
     <script src="/index.js"></script>
   </body>
 </html>

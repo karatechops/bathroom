@@ -1,7 +1,7 @@
 {
-  "name": "@bathroom/anchor",
+  "name": "@bathroom/button",
   "version": "1.0.0",
-  "description": "Bathroom UI - Anchor Component",
+  "description": "Bathroom UI - Button Component",
   "main": "index.js",
   "author": "Alex Mejias",
   "license": "MIT"

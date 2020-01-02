@@ -1,10 +1,10 @@
 import styles from './styles';
 
-const componentTag = 'bathroom-anchor';
+const componentTag = 'bathroom-button';
 
 // Shadow roots can not be passed to HTMLAnchorElement
 // we use HTMLElement instead.
-class BathroomAnchor extends HTMLElement {
+class BathroomButton extends HTMLElement {
   constructor() {
     super();
     this.addEventListener('click', e =>
@@ -26,4 +26,4 @@ class BathroomAnchor extends HTMLElement {
   }
 }
 
-customElements.define(componentTag, BathroomAnchor);
+customElements.define(componentTag, BathroomButton);
