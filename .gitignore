@@ -3,3 +3,4 @@ dist
 .cache
 build
 yarn-error.log
+.DS_Store

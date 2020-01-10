@@ -16,8 +16,20 @@ class BathroomNav extends HTMLElement {
   }
 
   render() {
-    this.shadow.innerHTML = `<nav>${this.innerHTML}</nav>
-    ${styles}`;
+    const title = this.getAttribute('title');
+    const logoSrc = this.getAttribute('logo');
+    this.shadow.innerHTML = `
+    ${styles}
+    <nav>
+      <div class="${componentTag}-logo">
+        <img src="${logoSrc}" alt="${title}" />
+        <span>${title}</span>
+      </div>
+      <div class="${componentTag}-links">
+        <slot></slot>
+      </div>
+    </nav>
+    `;
   }
 }
 

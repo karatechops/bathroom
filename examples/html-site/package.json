@@ -8,7 +8,18 @@
     "@bathroom/anchor": "*",
     "@bathroom/button": "*",
     "@bathroom/core": "*",
-    "@bathroom/nav": "*",
-    "node-modules": "^1.0.1"
+    "@bathroom/nav": "*"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "src/assets",
+        "staticOutDir": "assets"
+      }
+    ],
+    "watcherGlob": "**"
   }
 }
